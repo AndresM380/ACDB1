@@ -1,0 +1,86 @@
+
+/* Estilos para el formulario de usuario registrado */
+.perfil-main {
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.perfil-contenedor {
+  width: 380px;
+  max-width: 95%;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 12px #cccccc;
+  text-align: left;
+}
+
+.perfil-contenedor h2 {
+  text-align: center;
+  color: #003366;
+  margin-bottom: 20px;
+}
+
+.perfil-form label {
+  display: block;
+  margin-top: 12px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.perfil-form label.mensaje-error {
+  color: red !important;
+  text-align: center;
+  font-size: 14px;
+}
+
+.perfil-form label.mensaje-exito {
+  color: green !important;
+  text-align: center;
+  font-size: 14px;
+}
+
+.perfil-form input {
+  width: 100%;
+  padding: 9px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+
+.perfil-form input[readonly] {
+  background-color: #eeeeee;
+  color: #555555;
+  cursor: not-allowed;
+}
+
+.perfil-botones {
+  margin-top: 18px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.perfil-botones button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.perfil-botones button[type="submit"] {
+  background-color: #003366;
+  color: white;
+}
+
+.perfil-botones button[type="reset"] {
+  background-color: #cccccc;
+  color: black;
+}
